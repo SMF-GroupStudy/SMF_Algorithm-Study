@@ -4,9 +4,9 @@ e-Book : this is coding test 활용 (1월 ~2월) <br>
 이후 [프로그래머스](https://school.programmers.co.kr/) 활용 예정<br>
 
 ## :question:스터디 Rules 
-* 맡은 파트 정리 (e-Book)
+* e-Book 공부는 매일 밤 10시 리뷰(결 사유시 Issues나 톡방에 연락)
 * 1일 1커밋 개인 프로젝트, 공부 및 현 스터디 repo
-* 매주 금 혹은 주말 review 진행 review 파일에 정리
+* reviews 폴더에 개인 프로젝트 및 공부 review를 진행할 예정
 * **할 수 있는 만큼만 하기! 무리 X**
 
 ## :wrench:진행 방법
