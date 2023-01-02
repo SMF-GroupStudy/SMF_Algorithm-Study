@@ -10,13 +10,23 @@ e-Book : this is coding test 활용 (1월 ~2월) <br>
 * **할 수 있는 만큼만 하기! 무리 X**
 
 ## :wrench:진행 방법
-1. SMF_Algoritm-Study 레포지토리 fork 하기
-2. 자신 계정의 깃허브에 똑같은 레포가 잇어야함 !! <br>
-생기게 되면 Forked from csyeob/SMF_Algorithm-Study 레포가 생겨야함.<br>
-레포를 Fork 하지않고 바로 PR하게 되면 잔디가 생성안됨. <br>
-3. 이후에 자신의 레포지토리를 클론하여야함. **본인의 레포지토리여야함!**
-4. e-Book study 디렉토리에 e-Book 공부 올리기 (마크다운 파일 1단원.md형식으로 올리고, 코드는 디렉토리안에 첨부)
-5. 레포에 커밋 후 푸시 한 후에 Pull Request 생성 
-6. title엔 본인 아이디 밑에는 간단 요약 정리를 올리고 Create Pull Request하면 됨.
-7. 이 후 코드리뷰로 Review 확인 후 피드백 
-8. PR 승인 및 병합
+* memebers: 멤버 폴더. 자신 개인 공부 및 개인 프로젝트 관리하는 폴더
+* E-book Study: e-book 공부를 올리고 피드
+원격저장소 로컬에 가져오기
+ git clone https://github.com/TheCopiens/algorithm-study.git 
+
+로컬에서 개인 브랜치 생성하기
+local workspace에 'ohhako'라는 이름으로 브랜치 생성
+ git branch ohhako 
+
+로컬에서 브랜치 작업후 원격저장소에 반영하기
+로컬 브랜치가 있는 폴더에서 개인작업을 마친 후 공동 저장소에 반영한다.
+
+ git checkout ohhako  - master에서 ohhako 브랜치로 전환
+workspace에서 작업
+ git commit -m "message"
+ git push origin ohhako  - 원격저장소 ohhako 브랜치에 반영
+ git checkout master  - 브랜치 전환
+ git pull  - 원격저장소 master의 최신 정보를 로컬에 업데이트 시키기
+ git merge ohhako  - master에 ohhako 브랜치 작업 반영
+ git push origin master  - 원격저장소 master에 반영
