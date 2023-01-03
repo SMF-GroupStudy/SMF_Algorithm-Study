@@ -1,1 +1,2 @@
-jiggy's algorithm study file
+Jiggy's algorithm study file 
+============
