@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b987db04-1415-4996-aaad-49022e265870" name="Changes" comment="E-book greedy 3-4">
+      <change afterPath="$PROJECT_DIR$/greedy/codeup_01_min_cost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedy/greedy3-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/greedy/greedy3-3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedy/greedy3-4.py" beforeDir="false" afterPath="$PROJECT_DIR$/greedy/greedy3-4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,28 @@
       <recent name="C:\Users\yeob\Desktop\SMF_Algorithm-Study\E-book Study\greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.greedy3-4">
+  <component name="RunManager" selected="Python.codeup_01_min_cost">
+    <configuration name="codeup_01_min_cost" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="E-book Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/greedy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/greedy/codeup_01_min_cost.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="greedy3-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="E-book Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.codeup_01_min_cost" />
         <item itemvalue="Python.greedy3-4" />
         <item itemvalue="Python.greedy3-3" />
         <item itemvalue="Python.greedy3-2" />
@@ -168,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672906534314</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="E-book greedy 3-4">
+      <created>1672907910919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672907910919</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
