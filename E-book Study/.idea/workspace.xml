@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b987db04-1415-4996-aaad-49022e265870" name="Changes" comment="E-book 구현 4-1">
-      <change afterPath="$PROJECT_DIR$/implement/implement4-2.py" afterDir="false" />
+    <list default="true" id="b987db04-1415-4996-aaad-49022e265870" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/implement/implement4-3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="C:\Users\yeob\Desktop\SMF_Algorithm-Study\E-book Study\greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.implement4-2">
+  <component name="RunManager" selected="Python.implement4-3">
     <configuration name="codeup02_change" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="E-book Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,27 +78,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/greedy/codeup_01_min_cost.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="greedy3-4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="E-book Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/greedy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/greedy/greedy3-4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,13 +128,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="implement4-3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="E-book Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/implement" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/implement/implement4-3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.implement4-3" />
         <item itemvalue="Python.implement4-2" />
         <item itemvalue="Python.implement4-1" />
         <item itemvalue="Python.codeup02_change" />
         <item itemvalue="Python.codeup_01_min_cost" />
-        <item itemvalue="Python.greedy3-4" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672980046564</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="E-book 구현 4-2">
+      <created>1672982791882</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672982791882</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixup! E-book 구현 4-2">
+      <created>1672982835099</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672982835099</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +252,8 @@
     <MESSAGE value="CodeUP_그리디_최소대금" />
     <MESSAGE value="CodeUP_그리디02_거스름돈" />
     <MESSAGE value="E-book 구현 4-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="E-book 구현 4-1" />
+    <MESSAGE value="E-book 구현 4-2" />
+    <MESSAGE value="fixup! E-book 구현 4-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixup! E-book 구현 4-2" />
   </component>
 </project>
