@@ -7,7 +7,7 @@
 
 # 나의 문제 접근 방식
 # 이동 계획을 리스트로 받아 for 문으로 순차적으로 돌린다.
-# 이동에 따라 여행자의 좌표값을 변경해 준다.
+# 이동에 따라 여행자의 좌표값을 변경해 준다. 
 
 N = int(input())
 command_list = list(map(str, input().split()))
@@ -22,13 +22,13 @@ for i in command_list:
             x -= 1
 
     if i == 'D':
-        if x >= 5:
+        if x >= N:
             print("지도를 벗어나는 명령입니다.")
         else:
             x += 1
 
     if i == 'R':
-        if y >= 5:
+        if y >= N:
             print("지도를 벗어나는 명령입니다.")
         else:
             y += 1
