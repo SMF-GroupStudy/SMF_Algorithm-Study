@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b987db04-1415-4996-aaad-49022e265870" name="Changes" comment="CodeUp 최고의피자">
-      <change afterPath="$PROJECT_DIR$/implement/codeup_remocon.py" afterDir="false" />
+    <list default="true" id="b987db04-1415-4996-aaad-49022e265870" name="Changes" comment="CodeUp 리모컨">
+      <change afterPath="$PROJECT_DIR$/DFS_BFS/Chapter5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS_BFS/DFS_BFS_5-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS_BFS/DFS_BFS_5-2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/implement/implement4-4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -44,7 +46,49 @@
       <recent name="C:\Users\yeob\Desktop\SMF_Algorithm-Study\E-book Study\greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.codeup_remocon">
+  <component name="RunManager" selected="Python.implement4-4">
+    <configuration name="DFS_BFS_5-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="E-book Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS_BFS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS_BFS/DFS_BFS_5-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DFS_BFS_5-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="E-book Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS_BFS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS_BFS/DFS_BFS_5-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="codeup_pizza" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="E-book Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,48 +131,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="implement4-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="E-book Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/implement" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/implement/implement4-2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="implement4-3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="E-book Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/implement" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/implement/implement4-3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="implement4-4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="E-book Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.implement4-4" />
+        <item itemvalue="Python.DFS_BFS_5-2" />
+        <item itemvalue="Python.DFS_BFS_5-1" />
         <item itemvalue="Python.codeup_remocon" />
         <item itemvalue="Python.codeup_pizza" />
-        <item itemvalue="Python.implement4-4" />
-        <item itemvalue="Python.implement4-3" />
-        <item itemvalue="Python.implement4-2" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672994258461</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="CodeUp 리모컨">
+      <created>1672996341323</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672996341323</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +280,7 @@
     <MESSAGE value="fixup! E-book 구현 4-2" />
     <MESSAGE value="E-book 구현 4-3" />
     <MESSAGE value="CodeUp 최고의피자" />
-    <option name="LAST_COMMIT_MESSAGE" value="CodeUp 최고의피자" />
+    <MESSAGE value="CodeUp 리모컨" />
+    <option name="LAST_COMMIT_MESSAGE" value="CodeUp 리모컨" />
   </component>
 </project>
