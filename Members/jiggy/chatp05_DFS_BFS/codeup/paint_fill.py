@@ -2,7 +2,7 @@ paint = []
 for i in range(10):
     paint.append(list(map(str, input())))
 
-x, y = map(int, input().split())
+y, x = map(int, input().split())
 
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
