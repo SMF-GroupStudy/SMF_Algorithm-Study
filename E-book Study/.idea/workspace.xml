@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b987db04-1415-4996-aaad-49022e265870" name="Changes" comment="codeUp 그림채우기">
+    <list default="true" id="b987db04-1415-4996-aaad-49022e265870" name="Changes" comment="fixup! codeUp 그림채우기">
       <change afterPath="$PROJECT_DIR$/csyeob/DFS_BFS/codeup_candypang.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csyeob/DFS_BFS/codeup_picture.py" beforeDir="false" afterPath="$PROJECT_DIR$/csyeob/DFS_BFS/codeup_picture.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673415188438</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fixup! codeUp 그림채우기">
+      <created>1673417527152</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673417527152</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +333,7 @@
     <MESSAGE value="E-book 5장 5-2" />
     <MESSAGE value="codeUp 바이러스" />
     <MESSAGE value="codeUp 그림채우기" />
-    <option name="LAST_COMMIT_MESSAGE" value="codeUp 그림채우기" />
+    <MESSAGE value="fixup! codeUp 그림채우기" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixup! codeUp 그림채우기" />
   </component>
 </project>
