@@ -4,9 +4,6 @@ for i in range(10):
 
 y, x  = map(int, input().split())
 
-dx = [0, 0, -1, 1]
-dy = [-1, 1, 0, 0]
-
 def bfs(x, y):
 
             if x < 0 or y <0 or x >= 10 or y>= 10:
