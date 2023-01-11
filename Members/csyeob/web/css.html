@@ -1,0 +1,73 @@
+<!-- css -->
+<!--
+    <font> 그냥 이 태그를 태그로 써도댐 
+    <style> 태그는 안쪽 내용은 css 이니까 문법에 맞게
+        해석해서 적용해! 하는 태그임.
+        태그의 컬러를 바꿀때 사용 만약 a 태그가 1억개가있다면
+        훨씬 효과적임.
+        중복 코드 <font color= "red">가 1억개라면 
+        <style> a{ color: red; }</style> 이 훨씬 좋음.
+        html은 오직 정보만 css는 디자인
+        <style> 태그 외에는 css를 속성으로도 사용이 가능
+            <li><a href="2.html" style="color:red">CSS</a></li>
+            style은 html의 속성이고, ""안은 css 코드임. 
+            ;을 붙이는 이유는 구분하기 위함 
+
+          selector ->  a {
+          Declaration        color : red;
+                         }   property : value
+        a를 selector라 부른다.
+        
+        html 속성 중 class로 묶을 수 있다.
+        css로 선택자 쓸라면 .saw 이렇게 써야함.
+        class는 style 태그 안에 먼저 있는 class가 실행이 되서 
+        saw active 이렇게 했을때 active가 나중실행으로 보이게 됨.
+        그땐 id 선택자를 써야함.
+        id > class > 태그  순으로 선택자가 강함.
+        id의 값은 단 한번만 등장해야함. active를 썻으면 한번만 써야함. 중복 x
+        a가 id 보다 포괄적이고 id가 a 보다 구체적이다.
+        포괄적이고 그런면에서 보면 순위가 이해가됨.
+-->
+
+<!--
+    box 모델도 상당히 중요함.
+    h1 제목 태그는 화면 전체를 쓰고 있음. 링크는 자기 content 크기만큼을 씀.
+    일반적인 쓰임에 따라 화면전체인지 크기만큼인지 구분됨.
+    화면전체를 쓰면 블록
+    display:inline 이렇게하면 자기 크기만큼으로도 바뀌긴함. block 이면 전체
+    none 하면 안보여짐.
+    margin 테투리와 테투리의 간격
+    padding은 content와 테투리 한마디로 안의 간격이고
+    margin은 다른 태그들과의 간격을 좁히는거임
+    css box model 검색해보면 됨.
+
+    grid 방법으로 나눌 수 있음.
+    div 태그는 block 형태의 디자인하라고 쓰여진 그냥 태그
+    span 태그는 inline 형태의 디자인하라고 쓰여진 그냥 태그임.
+    1fr에서 grid-template-culumns: 2fr 1fr은 
+    3fr 중 navi는 2fr article은 1fr frame 개념임.
+    #grid ol 은 id가 grid의 밑에 ol태그들이라는 뜻
+-->
+
+<!--
+    반응형 웹
+    창의 크기를 달리 했을 때 보이게 하기 위함.
+    ->@media query
+    # min width는 창의 크기가 800px보다 클때 적용
+     @media(min-width:800px) {
+            div {
+                display: none;
+            }
+        }
+    max-width는 창의 크기가 800px보다 작을때 적용
+    여러가지 화면이 존재하게 된다면 중요함. 
+    가로모드 세로모드 등이 있으니..
+    style.css 
+    css 파일을 적용하고
+    <link rel = "stylesheet" href="style.css">
+    link로 css을 적용해라 이러면 
+    적용하고 싶은 웹페이지가 적용됨.
+    
+    웹페이지를 캐싱하게 된다면 인터넷 비용도 줄이고,
+    network를 줄이게 되는게 중요!
+-->
