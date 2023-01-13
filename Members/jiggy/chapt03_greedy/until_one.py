@@ -1,23 +1,15 @@
 n, k = map(int, input().split())
 count = 0
 
-
-def minus_one(N):
-    return N - 1
-
-
-def divide_n(N, K):
-    return N / K
-
-
-while n != 1:
-    print(n)
-    print(k)
+while True:
     if n % k == 0:
-        divide_n(n, k)
+        n = n / k
         count += 1
     else:
-        minus_one(n)
+        n = n - 1
         count += 1
+
+    if n == 1:
+        break
 
 print(count)
