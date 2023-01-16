@@ -1,26 +1,29 @@
 import { useState } from "react";
+import UserName from "./UserName";
 
-export default function Hello() {
-    // let name = "Mike";
-    // name은 변수이기때문에 리액트에서는 관리해주지않음 웹에선 
-    // 그럼 어떻게 state로 만드냐 --> useState를 사용해야함.
+export default function Hello({age}) {
+    //console.log(props);
     const [name, setName] = useState('Mike');
+    // 그냥 컴포넌트에 짚어 넣게 되면 props는 바꿀수 없음.
+    // <h2 id = "name">{name}({props.age}세)</h2> 밑에 return문에 작성함.
+    // props.age = 100;
+    // 위 코드는 에러임 props는 저렇게 못바꿈.
+    // const [age, setAge] = useState(props.age);
+    // 위코드는 Hello(props){}
 
-    // function changeName(){
-    //     // const newName = name === "Mike" ? "Jane" : "Mike"; // Mike 일땐 Jane으로 Jane일땐 Mike로
-    //     console.log(name); // 웹에선 업데이트가 되지않음 이상태면
-    //     // dom 업데이트 작업도 해줘야함.
-    //     //document.getElementById("name").innerText = name;
-    //     //setName(newName);
-    //     setName(name === "Mike" ? "Jane" : "Mike");
-    //     //<button onClick={changeName}>Change</button>
-    // }
+    const msg = age > 19 ?  '성인입니다.':'미성년자 입니다.';
+
     return (
      <div>
-        <h2 id = "name">{name}</h2>
+        <h2 id = "name">{name}({age}) : {msg}</h2>
+        <UserName name = {name} />
+        {/* return 문 전체를 보자면 {name}은 useState인데, 
+            UserName 입장에서 보면 props임.
+        */}
         <button onClick={()=>{
             setName(name === "Mike" ? "Jane" : "Mike");
-        }}>Change</button>
+            //setAge(age + 1);
+       }}>Change</button>
      </div>
     );
 }
