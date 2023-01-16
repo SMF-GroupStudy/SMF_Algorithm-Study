@@ -10,9 +10,10 @@ function App() {
   }
   return( 
   <div className="App">
-    <Hello/>
-    <Hello/>
-    <Hello/>
+    <h3>props : properties</h3>
+    <Hello age = {10}/>
+    <Hello age = {20}/>
+    <Hello age = {30}/>
     {/*useState는 컴포넌트 별로 관리를 함*/}
   </div>
   );
