@@ -8,18 +8,14 @@ function App() {
     name: "네이버",
     url: "https://naver.com",
   }
-  return <div className="App">
-    {/* <h1
-      style={{
-        color: "#f0f",
-        backgroundColor:"green"
-      }}>
-      Hello, {name} <p>{2+3}</p>
-    </h1> 
-    <a href={naver.url}>{naver.name}</a> */}
-    <Hello/>   
-    <div className={styles.box}>App</div> 
-  </div>;
+  return( 
+  <div className="App">
+    <Hello/>
+    <Hello/>
+    <Hello/>
+    {/*useState는 컴포넌트 별로 관리를 함*/}
+  </div>
+  );
 }
 
 export default App;

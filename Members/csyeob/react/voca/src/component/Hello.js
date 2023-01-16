@@ -1,32 +1,26 @@
+import { useState } from "react";
+
 export default function Hello() {
-    function showName(){
-        console.log("Mike");
-    }
-    function showAge(age){
-        console.log(age);
-    }
-    // function showText(e){
-    //     console.log(e.target.value)
-    //   이렇게 함수로 만들어서 {showText} 해도 되고
-    //  밑에 처럼 해도댐.
+    // let name = "Mike";
+    // name은 변수이기때문에 리액트에서는 관리해주지않음 웹에선 
+    // 그럼 어떻게 state로 만드냐 --> useState를 사용해야함.
+    const [name, setName] = useState('Mike');
+
+    // function changeName(){
+    //     // const newName = name === "Mike" ? "Jane" : "Mike"; // Mike 일땐 Jane으로 Jane일땐 Mike로
+    //     console.log(name); // 웹에선 업데이트가 되지않음 이상태면
+    //     // dom 업데이트 작업도 해줘야함.
+    //     //document.getElementById("name").innerText = name;
+    //     //setName(newName);
+    //     setName(name === "Mike" ? "Jane" : "Mike");
+    //     //<button onClick={changeName}>Change</button>
     // }
-     function showText(txt){
-        console.log(txt);
-    }
     return (
      <div>
-        <h1>Hello</h1>
-        <button onClick={showName}>Show name</button>
-        <button onClick={() => {
-            showAge(30)
-        }}>
-        Show age
-        </button>
-        <input type = "text" onChange={(e) =>{
-            const txt = e.target.value;
-            showText(txt);
-            //console.log(e.target.value)
-        }}></input>
+        <h2 id = "name">{name}</h2>
+        <button onClick={()=>{
+            setName(name === "Mike" ? "Jane" : "Mike");
+        }}>Change</button>
      </div>
     );
 }
