@@ -11,3 +11,14 @@ start는 실행 개발모드
 build는 배포로 만들어줌
 
 index.js에서 인덱스해서 사용
+
+
+---- 
+<strong>Rest API</strong> <br>
+C R U D <br>
+<p>
+create : POST 
+Read : GET            json-server 서버 포트로 열어서 days/2 해보면 id가 2인 애가 뜨는데 그걸 읽는걸 GET 주소를 읽음 ?day=1 day=1에 일치한 주소를 다가져옴
+Updata : PUT
+Delete : DELETE
+</p> 
