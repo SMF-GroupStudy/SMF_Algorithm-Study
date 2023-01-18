@@ -15,6 +15,10 @@
     {
       "day": 4,
       "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
     }
   ],
   "words": [
@@ -66,6 +70,62 @@
       "kor": "사과",
       "isDone": false,
       "id": 12
+    },
+    {
+      "day": "1",
+      "eng": "window",
+      "kor": "창문",
+      "isDone": false,
+      "id": 13
+    },
+    {
+      "day": "1",
+      "eng": "house",
+      "kor": "집",
+      "isDone": false,
+      "id": 14
+    },
+    {
+      "day": "1",
+      "eng": "data",
+      "kor": "데이터",
+      "isDone": false,
+      "id": 15
+    },
+    {
+      "day": "1",
+      "eng": "heart",
+      "kor": "심장",
+      "isDone": false,
+      "id": 16
+    },
+    {
+      "day": "2",
+      "eng": "apple",
+      "kor": "사과",
+      "isDone": false,
+      "id": 19
+    },
+    {
+      "day": "5",
+      "eng": "computer",
+      "kor": "컴퓨터",
+      "isDone": false,
+      "id": 20
+    },
+    {
+      "day": "5",
+      "eng": "learn",
+      "kor": "배우다",
+      "isDone": false,
+      "id": 21
+    },
+    {
+      "day": "4",
+      "eng": "apple",
+      "kor": "사과",
+      "isDone": false,
+      "id": 22
     }
   ]
 }
