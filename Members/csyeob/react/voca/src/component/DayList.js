@@ -1,18 +1,21 @@
 import {Link} from "react-router-dom"
 import { useEffect, useInsertionEffect, useState } from 'react';
+import useFetch from './../hooks/useFetch';
 
 export default function DayList(){
-    const [days, setDays] = useState([]);
+    const days = useFetch("http://localhost:3002/days");
+
+    // const [days, setDays] = useState([]);
     
-    useEffect(()=>{
-        fetch("http://localhost:3002/days")
-        .then(res =>{
-            return res.json();
-        })
-        .then(data =>{
-            setDays(data);
-        })
-    },[]);
+    // useEffect(()=>{
+    //     fetch("http://localhost:3002/days")
+    //     .then(res =>{
+    //         return res.json();
+    //     })
+    //     .then(data =>{
+    //         setDays(data);
+    //     })
+    // },[]);
 
     return<ul className="list_day">
         {days.map(day =>(
