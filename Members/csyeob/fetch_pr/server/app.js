@@ -1,5 +1,9 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const app = express();
+const cors = require('cors');
+
+// cors 정책을 풀기위해 ()아무것도 없으면 모든 origin출저가 데이터를 꺼내가는데 가능함.
+app.use(cors());
 
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
