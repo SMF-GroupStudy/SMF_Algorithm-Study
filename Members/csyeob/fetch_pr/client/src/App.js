@@ -1,4 +1,6 @@
 //fetch
+import { useState } from 'react';
+import { useEffect } from 'react';
 //axios 라이브러리
 
 //서버에 데이터를 요청할려면 서버 주소를 알아야하고, 어떤 http method를 사용할지 알아야됨.
@@ -10,13 +12,49 @@
 // origin이 다르니까 막 데이터를 꺼내가면 안됨. 오리진이 다르면 빼갈수 없는 정책에 막힘
 // cors로 막아버린 정책은 누가 풀어줘야 하나? ---> 데이터를 줄지 말지를 정하는 서버에서 해결해야함.
 function App() {
-  fetch('http://localhost:3000/api/todo')
-  .then((response) => response.json())
-  .then((data) => console.log(data))
-  
+  const [todoList, setTodoList] = useState(null);
+
+  const fetchData = () =>{
+    fetch('http://localhost:4000/api/todo')
+      .then((response) => response.json())
+      .then((data) => setTodoList(data));
+  }
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const onSubmitHandler = (e) => {
+    e.preventDefault();
+    const text = e.target.text.value;
+    const done = e.target.done.checked;
+    fetch('http://localhost:4000/api/todo', {
+      method: 'POST',
+      headers:{
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        text,
+        done,
+      }),
+    }).then(() => fetchData());
+  }
+
+
   return (
     <div className="App">
       <h1>TODO LIST</h1>
+      <form onSubmit={onSubmitHandler}>
+        <input name="text" />
+        <input name="done" type="checkbox" />
+        <input type='submit' value="추가" />
+      </form>
+      {todoList?.map((todo) => (
+        <div key={todo.id} style={{display:'flex'}}>
+          <div>{todo.id}</div>
+          <div>{todo.text}</div>
+          <div>{todo.done ? 'Y' : 'N'}</div>
+        </div>
+      ))}
     </div>
   );
 }

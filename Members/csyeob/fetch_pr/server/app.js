@@ -27,6 +27,7 @@ app.get('/api/todo',(req,res)=>{
 app.post('/api/todo', (req, res)=>{
     const {text, done} = req.body;
     //body에서 꺼내쓸려면 body parser가 필요함.
+    console.log("req.body: ", req.body);
     todoList.push({
         id:id++,
         text,
@@ -35,6 +36,6 @@ app.post('/api/todo', (req, res)=>{
     return res.send('success');
 });
 
-app.listen(3000, () =>{
+app.listen(4000, () =>{
     console.log('server start!');
 });
