@@ -4,7 +4,7 @@ n = int(input())
 d = [5001] * (n+1)
 
 array = [3, 5]
-
+# 코드업 화폐문제랑 똑같음
 d[0] = 0
 for i in range(2):
     for j in range(array[i], n+1):
