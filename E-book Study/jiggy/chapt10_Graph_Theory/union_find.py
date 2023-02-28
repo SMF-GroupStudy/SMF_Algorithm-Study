@@ -40,5 +40,3 @@ print()
 print('부모 테이블: ', end='')
 for i in range(1, v + 1):
     print(parent[i], end=' ')
-
-# 해당 코드에서 가장 밑에 있는 자식노드에서 최상위 부모노드를 찾는데 걸리는 시간 복잡도는 O(VM)이 된다(노드의 수 V * find or union 개수 M). 이를 해결하기 위해 경로 압축 기법을 사용한다.
