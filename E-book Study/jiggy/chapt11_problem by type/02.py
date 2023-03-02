@@ -6,7 +6,7 @@ result = 0
 # 문자열을 왼쪽부터 차례로 반복하여 연산
 for i in s:
     # 0이나 1이거나 첫 연산일 경우 덧셈 연산
-    if i == "0" or i == "1" or result == 0:
+    if i == "0" or i == "1" or result == 0 or result == 1:
         result += int(i)
     # 아닐 경우 전부 곱셈 연산
     else:
