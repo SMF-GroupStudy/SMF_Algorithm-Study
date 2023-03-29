@@ -7,6 +7,7 @@ public class String_reverse {
         Scanner sc = new Scanner(System.in);
         String my_string = sc.next();
         System.out.println(solution(my_string));
+        System.out.println(solution2(my_string));
     }
 
     public static String solution(String my_string) {
@@ -16,5 +17,10 @@ public class String_reverse {
             answer.append(my_string.charAt(i));
         }
         return answer.toString();
+    }
+
+    public static String solution2(String my_string) {
+        StringBuilder answer = new StringBuilder(my_string);
+        return answer.reverse().toString();
     }
 }
