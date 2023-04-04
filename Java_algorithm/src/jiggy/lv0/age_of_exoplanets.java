@@ -1,4 +1,4 @@
-package jiggy.basic;
+package jiggy.lv0;
 
 public class age_of_exoplanets {
     public static void main(String[] args) {

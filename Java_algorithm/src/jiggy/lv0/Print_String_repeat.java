@@ -1,4 +1,4 @@
-package jiggy.basic;
+package jiggy.lv0;
 
 public class Print_String_repeat {
     public static void main(String[] args) {
