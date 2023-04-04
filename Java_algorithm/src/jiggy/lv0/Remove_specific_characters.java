@@ -1,4 +1,4 @@
-package jiggy.basic;
+package jiggy.lv0;
 
 public class Remove_specific_characters {
     public static void main(String[] args) {

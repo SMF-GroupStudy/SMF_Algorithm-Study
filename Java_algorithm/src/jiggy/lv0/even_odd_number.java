@@ -1,4 +1,4 @@
-package jiggy.basic;
+package jiggy.lv0;
 
 import java.util.Arrays;
 

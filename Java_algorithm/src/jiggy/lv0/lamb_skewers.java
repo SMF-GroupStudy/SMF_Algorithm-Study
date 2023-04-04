@@ -1,4 +1,4 @@
-package jiggy.basic;
+package jiggy.lv0;
 
 public class lamb_skewers {
     public static int lamb = 12000;
