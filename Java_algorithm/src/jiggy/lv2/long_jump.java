@@ -21,10 +21,10 @@ public class long_jump {
         dp[2] = 2;
 
         for (int i = 3; i < n + 1; i++) {
-            dp[i] = dp[i - 1] + dp[i - 2];
+            dp[i] = dp[i - 1] + dp[i - 2] % 1234567;
         }
         answer = dp[n];
-        return answer % 1234567;
+        return answer;
     }
 
     // 내 풀이는 39부터 정답 풀이와 달리 오답이 나온다.
